@@ -1,0 +1,17 @@
+.cache
+.tox
+__pycache__
+dist
+htmlcov
+*.egg-info
+*.log
+tests
+*.tar.xz
+*.dsc
+*.build
+*.changes
+*.tar.gz
+docs
+pyfomod
+.coverage
+*.ppa.upload
