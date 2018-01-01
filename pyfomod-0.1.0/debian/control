@@ -1,0 +1,15 @@
+Source: pyfomod
+Section: python
+Priority: extra
+Maintainer: Daniel Nunes <daniel.henri.nunes@gmail.com>
+Build-Depends: debhelper (>=9), dh-python, python3-all, python3-setuptools (>=31), python3-lxml
+Standards-Version: 3.9.6
+Homepage: https://github.com/GandaG/pyfomod
+X-Python3-Version: >= 3.3
+
+Package: python3-pyfomod
+Architecture: all
+Multi-Arch: foreign
+Depends: python3-lxml, ${misc:Depends}, ${python3:Depends}
+Description: pyfomod - parse, create and modify fomod installers
+ A sample description.
